@@ -1,6 +1,9 @@
 #ifndef _ADAFRUIT_GFX_H
 #define _ADAFRUIT_GFX_H
 
+#undef ARDUINO
+#define ARDUINO 100
+
 #if ARDUINO >= 100
 #include "Arduino.h"
 #include "Print.h"
